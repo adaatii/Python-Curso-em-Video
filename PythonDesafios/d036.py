@@ -18,4 +18,4 @@ porcentagemsalario = (salario * 30)/100
 if valorparcela <= porcentagemsalario:
     print('Emprestimo aprovado. O valor da parcela será de R${:.2f} a ser pago nos proximos {} meses.'.format(valorparcela, meses))
 else:
-    print('Emprestio negado.')
+    print('Emprestimo NEGADO! O valor da parcela excede 30% do salario.')
