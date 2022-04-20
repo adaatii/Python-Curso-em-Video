@@ -15,11 +15,11 @@ idade = anoatual - anonasc
 print(idade)
 if idade <= 9:
     print('Categoria: MIRIM')
-elif 9 < idade <= 14:
+elif idade <= 14:
     print('Categoria: INFANTIL')
-elif 14 < idade <= 19:
+elif idade <= 19:
     print('Categoria: JÚNIOR')
-elif 19 < idade <= 25:
+elif idade <= 25:
     print('Categoria: SÊNIOR')
 else:
     print('Categoria: MASTER')
