@@ -15,11 +15,20 @@ print('Lista de Times:')
 for t in times:
     print(t)
 print('-='*15)
-print('Os 5 primeiro são: {}'.format(times[:5]))
+print('Os 5 primeiro são: ')
+times_prim = times[:5]
+for i in times_prim:
+    print(i)
 print('-='*15)
-print('Os 4 ultimos são: {}'.format(times[-4:]))
+print('Os 4 ultimos são: ')
+times_ult = times[-4:]
+for i in times_ult:
+    print(i)
 print('-='*15)
-print('Times em ordem alfabética: {}'.format(sorted(times)))
+print('Times em ordem alfabética: ')
+lista_alfa = sorted(times)
+for i in lista_alfa:
+    print(i)
 print('-='*15)
 print('O chapecoense está na {}° posição'.format(times.index('Chapecoense')+1))
 
