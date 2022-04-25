@@ -1,3 +1,8 @@
+#Crie um programa que tenha uma dupla totalmente preenchida
+# com uma contagem por extenso, de zero até vinte.
+# Seu programa deverá ler um número pelo teclado
+# (entre 0 e 20) e mostrá-lo por extenso.
+
 cont = ('ZERO', 'UM', 'DOIS', 'TRÊS', 'QUATRO',
         'CINCO', 'SEIS', 'SETE', 'OITO', 'NOVE',
         'DEZ', 'ONZE', 'DOZE', 'TREZE', 'CATORZE',
