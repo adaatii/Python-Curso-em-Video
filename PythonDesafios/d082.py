@@ -11,11 +11,11 @@ while True:
     op = str(input('Quer continuar? [S/N]')).strip().upper()[0]
     if op == 'N':
         break
-for i, v in enumerate(num):
-    if v % 2 == 0:
-        pares.append(v)
+for i in num:
+    if i % 2 == 0:
+        pares.append(i)
     else:
-        impares.append(v)
+        impares.append(i)
 print('-='*30)
 print(f'A lista caompleta é {num}')
 print(f'A lista de pares é {pares}')
