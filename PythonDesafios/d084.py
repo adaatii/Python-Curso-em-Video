@@ -20,7 +20,7 @@ while True:
     principal.append(temp[:])
     temp.clear()
     resp = str(input('Quer continuar? [S/N] ')).strip().upper()[0]
-    if resp != 'S':
+    while resp != 'S' and resp != 'N':
         print('Opção inválida. Tente novamente.')
         resp = str(input('Quer continuar? [S/N] ')).strip().upper()[0]
     if resp == 'N':
