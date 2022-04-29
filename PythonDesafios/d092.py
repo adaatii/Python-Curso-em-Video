@@ -3,7 +3,7 @@
 # acrescente, além da idade, com quantos anos a pessoa vai se aposentar.
 
 from datetime import datetime
-dados = {}
+dados = dict()
 dados['nome'] = str(input('Nome: '))
 nasc = int(input('Ano de nascimento: '))
 dados['idade'] = datetime.now().year - nasc
